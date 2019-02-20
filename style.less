@@ -15,6 +15,7 @@ body {
     font-family: "Arial", sans-serif;
     background: #ffffff;
     color: #283645;
+    text-align: justify;
 }
 
 .container {
@@ -126,26 +127,67 @@ body {
     }
 }
 
-.header-logo img{
-    content: url('img/logo-pink-white-mobile.svg');
-    width: 70px;
-    height: 23px;
-    padding-top: 25px;
-    padding-bottom: 0px;
+.header-logo a{
+    width: 300px;
+    height: 70px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 35px;
     margin-left: 40px;
+    color: green;
 }
 
-.header-logo :hover {
-    content: url('img/logo-pink-white-mobile-hvr.svg');
+.header-logo a:hover {
+    color: #d22856;
+    text-transform: uppercase;
 }
 
-.header-logo img:active {
-    content: url('img/logo-pink-white-mobile.svg');
+.header-logo a:active {
+    color: #ffffff;
     opacity: 0.7;
 }
 
-.header-menu(@mobile-area, 0px, @mobile);
+.header-menu(@mobile-area, 0px, 30%);
 
+
+.circle-links-block {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    font-size: 12px;
+    top: 10px;
+    margin-left: 50%;
+}
+
+.circle-links-block a {
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #283645;
+    border-radius: 10px 0px 10px 0px;
+    opacity: 0.8;
+}
+
+.circle-links-block a:hover {
+    color: #d22856;
+}
+
+.circle-links-block a:active {
+    color: #ffffff;
+    opacity: 0.7;
+}
 
 .main-info {
     width: @mobile-area;
@@ -278,7 +320,7 @@ body {
 /*----------------------------------------------------------------------------------------------------------------*/
 
 @media (min-width: @tablet) and (max-width: @desktop) {
-	.header-menu(@tablet-area, 40px, @tablet);
+	.header-menu(@tablet-area, 40px, 10%);
 	
 	.header-logo img{
 	    content: url('img/logo-pink-white-tablet.svg');
@@ -299,6 +341,40 @@ body {
     }
 
 	.header-main-info(40px, 35px, 50px);
+
+    .circle-links-block {
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        font-size: 20px;
+        top: 30px;
+        margin-left: 50%;
+    }
+
+    .circle-links-block a {
+        width: 80px;
+        height: 80px;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #283645;
+        border-radius: 50px 0px 50px 0px;
+        opacity: 0.8;
+    }
+
+    .circle-links-block a:hover {
+        color: #d22856;
+    }
+
+    .circle-links-block a:active {
+        color: #ffffff;
+        opacity: 0.7;
+    }
 
     .new-opinion {
         margin-left: 0px;
@@ -400,7 +476,7 @@ body {
 	}
     
     .header {
-        
+        height: @header-size;
         color: #ffffff;
         margin: 0 auto;
         padding-top: 0px;
@@ -413,7 +489,10 @@ body {
         background-size: cover;
         @media (max-width: @tablet) {
             background-color: #283645;
-            background-image: none;           
+            background-image: 
+                url("image/molecule1-desktop.png") 100% 50% no-repeat;
+            background-image: 
+                -webkit-image-set(url("image/molecule1-desktop.png") 1x, url("image/molecule1-desktop.png") 2x);           
         }
         @media (min-width: @tablet) and (max-width: @desktop) {
             background-image: 
@@ -463,24 +542,6 @@ body {
         margin-bottom: @margin-1;
     }
     
-    .logo-different-systems {
-        margin-top: @margin-2;
-        margin-bottom: @margin-2;
-    }
-    
-    .logo-different-systems img {
-        padding: 0 13px;
-    } 
-    
-    .margin-mobile {
-        min-height: 0px;
-        font-size: 0;
-    }
-    
-    .work {
-       display: block; 
-    }
-    
     .main-info-background {
         display: none;
     }
@@ -508,7 +569,7 @@ body {
 	    flex-wrap: wrap;
 	}
     
-    .header-menu(@desktop-area, 130px, @desktop);
+    .header-menu(@desktop-area, 130px, 10%);
        
 	.header-logo img{
 	    content: url('img/logo-pink-white-desktop.svg');
@@ -568,17 +629,42 @@ body {
         padding: 0px 10px;
         font-size: 18px;
     }
-
-
-    .menu .burger-home {
-        width: 300px;
-        text-transform: uppercase;
-        padding-top: 5px;
-        font-size: 23px;
-        color: #fffff0;
-    }
     
     .header-main-info(50px, 50px, 60px);
+
+    .circle-links-block {
+        width: 500px;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        font-size: 23px;
+        top: 50px;
+        margin-left: 60%;
+    }
+
+    .circle-links-block a {
+        width: 130px;
+        height: 130px;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #283645;
+        border-radius: 50px 0px 50px 0px;
+        opacity: 0.8;
+    }
+
+    .circle-links-block a:hover {
+        color: #d22856;
+    }
+
+    .circle-links-block a:active {
+        color: #ffffff;
+        opacity: 0.7;
+    }
     
     .new-info {
         margin-top: 80px;
