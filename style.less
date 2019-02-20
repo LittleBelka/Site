@@ -127,24 +127,26 @@ body {
     }
 }
 
-.header-logo a{
-    width: 300px;
-    height: 70px;
+.header-logo {
+    display: block;
+}
+
+.header-logo a {
+    width: 200px;
+    height: 60px;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     color: #ffffff;
     font-weight: bold;
-    padding-top: 35px;
-    margin-left: 40px;
-    color: green;
+    padding-top: 25px;
+    margin-left: 30px;
 }
 
 .header-logo a:hover {
     color: #d22856;
-    text-transform: uppercase;
 }
 
 .header-logo a:active {
@@ -322,22 +324,18 @@ body {
 @media (min-width: @tablet) and (max-width: @desktop) {
 	.header-menu(@tablet-area, 40px, 10%);
 	
-	.header-logo img{
-	    content: url('img/logo-pink-white-tablet.svg');
-	    width: 150px;
-	    height: 50px;
-	    padding-top: 30px;
-	    padding-bottom: 10px;
-	    margin-left: 40px;
-	}
-	
-	.header-logo :hover {
-	    content: url('img/logo-pink-white-tablet-hvr.svg');
-	}
-	
-	.header-logo img:active {
-	    content: url('img/logo-pink-white-tablet.svg');
-        opacity: 0.7;
+	.header-logo a {
+        width: 300px;
+        height: 70px;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 25px;
+        color: #ffffff;
+        font-weight: bold;
+        padding-top: 35px;
+        margin-left: 40px;
     }
 
 	.header-main-info(40px, 35px, 50px);
@@ -571,21 +569,18 @@ body {
     
     .header-menu(@desktop-area, 130px, 10%);
        
-	.header-logo img{
-	    content: url('img/logo-pink-white-desktop.svg');
-	    width: 150px;
-	    height: 43px;
-	    padding-top: 30px;
-	    margin-left: 120px;
-	}
-	
-	.header-logo :hover {
-	    content: url('img/logo-pink-blue-desktop.svg');
-	}
-	
-	.header-logo img:active {
-	    content: url('img/logo-pink-white-desktop-hvr.svg');
-        opacity: 0.7;
+	.header-logo a {
+        width: 300px;
+        height: 70px;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 25px;
+        color: #ffffff;
+        font-weight: bold;
+        padding-top: 40px;
+        margin-left: 40px;
     }
 	
 	.menu {
