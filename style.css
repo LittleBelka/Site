@@ -54,6 +54,11 @@ body {
     border-top: 1px solid black;
     text-transform: uppercase;
   }
+  .submenu {
+    background-color: #283645;
+    font-size: 12px;
+    opacity: 0.7;
+  }
   .hide {
     display: none;
   }
@@ -544,40 +549,71 @@ body {
     padding-top: 40px;
     margin-left: 40px;
   }
-  .menu {
-    margin-right: 120px;
-    background: none;
-    display: block;
-    margin-left: 0px;
-  }
-  .menu a {
-    display: block;
-    color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
-    opacity: 1;
-  }
-  .menu a:hover {
-    color: #d22856;
-  }
-  .menu a:active {
-    color: #ffffff;
-    opacity: 0.7;
-  }
-  .menu ul {
-    margin-top: 35px;
-    margin-bottom: 35px;
-    padding: 0;
+  ul {
     list-style: none;
+    display: block;
+    margin-right: 100px;
+    margin-left: 0px;
+    padding: 0px;
   }
-  .menu li {
+  ul.menu-list > li {
     display: inline-block;
+    position: relative;
     text-align: center;
     font-weight: bold;
-    line-height: 1.5;
+    line-height: 4;
     vertical-align: top;
     padding: 0px 10px;
     font-size: 18px;
+  }
+  ul.menu-list > li > a {
+    display: block;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    opacity: 1;
+  }
+  ul.menu-list > li > a:hover {
+    color: #d22856;
+  }
+  ul.menu-list > li > a:active {
+    color: #ffffff;
+    opacity: 0.7;
+  }
+  .language {
+    text-decoration: underline;
+    color: green;
+  }
+  ul.submenu {
+    position: absolute;
+    width: 240px;
+    top: 65px;
+    left: 40px;
+    display: none;
+    background-color: #283645;
+    opacity: 0.8;
+  }
+  ul.submenu > li {
+    display: block;
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: none;
+  }
+  ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  ul.submenu > li > a:hover {
+    color: #d22856;
+  }
+  ul.submenu > li > a:active {
+    color: #ffffff;
+    opacity: 0.7;
+  }
+  ul.menu-list > li:hover > ul.submenu {
+    display: block;
   }
   .main-info {
     width: 310px;
