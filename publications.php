@@ -18,7 +18,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
   </head>
 <body>
-  <header class="header">
+  <header class="header header-extra-restrictions">
     <div class="header-menu">
         <div class="logo-and-menu">
           <div class="header-logo">
@@ -26,7 +26,7 @@
           </div>
           <nav class="menu">
             <input type="checkbox" id="burger-check" class="hide"/>
-    		    <label class="burger" for="burger-check">Show menu</label>
+            <label class="burger" for="burger-check">Show menu</label>
             <ul class="menu-list">
               <li><a class="submenu-link" href="research.php"><?php echo $research; ?></a>
                 <ul class="submenu">
@@ -52,31 +52,25 @@
               </li>
             </ul>
           </nav>
-	      </div>
-	  </div>
+        </div>
+    </div>
     <div class="container" class="main-info-background">
       <div class="main-info">
-  	    <h1 class="new-opinion">Awesome<br>
-  	     text</h1>
-  	    <p>Else big text text text text
-        text text text text text</p>	
-  	  </div>
-    </div>
-    <div class="circle-links-block">
-      <a href="">Link_1</a>
-      <a href="">Link_2</a>
+        <h1 class="new-opinion">Publications</h1>
+      </div>
     </div>
   </header>
   <main>
-  	<div class="container">
-  	  <h1 class="new-info">Something about our group</h1>
+    <div class="container">
+      <h1 class="new-info">Something</h1>
         <p>This is text about cell:</p><br>
         <p>The cell (from Latin cella, meaning "small room") is the basic structural, functional, and biological unit of all known living organisms. A cell is the smallest unit of life. Cells are often called the "building blocks of life". The study of cells is called cell biology.
 
-        Cells consist of cytoplasm enclosed within a membrane, which contains many biomolecules such as proteins and nucleic acids. Organisms can be classified as unicellular (consisting of a single cell; including bacteria) or multicellular (including plants and animals). While the number of cells in plants and animals varies from species to species, humans contain more than 10 trillion (1013) cells. Most plant and animal cells are visible only under a microscope, with dimensions between 1 and 100 micrometres.
+Cells consist of cytoplasm enclosed within a membrane, which contains many biomolecules such as proteins and nucleic acids. Organisms can be classified as unicellular (consisting of a single cell; including bacteria) or multicellular (including plants and animals). While the number of cells in plants and animals varies from species to species, humans contain more than 10 trillion (1013) cells. Most plant and animal cells are visible only under a microscope, with dimensions between 1 and 100 micrometres.
 
-        Cells were discovered by Robert Hooke in 1665, who named them for their resemblance to cells inhabited by Christian monks in a monastery. Cell theory, first developed in 1839 by Matthias Jakob Schleiden and Theodor Schwann, states that all organisms are composed of one or more cells, that cells are the fundamental unit of structure and function in all living organisms, and that all cells come from pre-existing cells. Cells emerged on Earth at least 3.5 billion years ago.</p>
+Cells were discovered by Robert Hooke in 1665, who named them for their resemblance to cells inhabited by Christian monks in a monastery. Cell theory, first developed in 1839 by Matthias Jakob Schleiden and Theodor Schwann, states that all organisms are composed of one or more cells, that cells are the fundamental unit of structure and function in all living organisms, and that all cells come from pre-existing cells. Cells emerged on Earth at least 3.5 billion years ago.</p>
     </div>
+    
   </main>
   <footer class="main-footer">
     2019 Nanobio Group
