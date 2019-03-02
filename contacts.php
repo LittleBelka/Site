@@ -30,9 +30,12 @@
             <ul class="menu-list">
               <li><a class="submenu-link" href="research.php"><?php echo $research; ?></a>
                 <ul class="submenu">
-                  <li><a href="">Project_1</a></li>
-                  <li><a href="">Project_2</a></li>
-                  <li><a href="">Project_3</a></li>
+                  <li><a href="research-biosensors_and_tools_control_bioprocesses.php">Development of biosensors and tools that control biochemical processes</a></li>
+                  <li><a href="research-study_and_control_complex_chem_systems.php">Study and control of complex chemical systems</a></li>
+                  <li><a href="research-applying_quantum_chemistry_stud_chem_reactions.php">Applying quantum chemistry for studying chemical reactions</a></li>
+                  <li><a href="research-photoactivated_molecular_tools.php">Photoactivated molecular tools</a></li>
+                  <li><a href="research-enzymatic_systems.php">Enzymatic systems</a></li>
+                  <li><a href="research-testing_anticancer_drugs.php">Testing anticancer drugs</a></li>
                 </ul>
               </li>
               <li>
@@ -40,9 +43,6 @@
               </li>
               <li>
                 <a href="members.php"><?php echo $members; ?></a>
-              </li>
-              <li>
-                <a href="othes.php"><?php echo $othes; ?></a>
               </li>
               <li>
                 <a id="contacts" href="contacts.php"><?php echo $contacts; ?></a>
@@ -56,29 +56,16 @@
     </div>
     <div class="container" class="main-info-background">
       <div class="main-info">
-        <h1 class="new-opinion">Contacts</h1>
+        <h1 class="new-opinion"><?php echo $contacts; ?></h1>
       </div>
     </div>
   </header>
   <main>
     <!-- <div class="contacts"> -->
       <div class="container contacts">
-        <div class="map">
-        </div>
-        <div class="different-contacts">
-          <section>
-            <p class="contact-name">Telephone:</p>
-            <p class="contact-path">+7(812)xxx-xx-xx</p>
-          </section>
-          <section class="main-adres">
-            <p class="contact-name">Addres:</p>
-            <p class="contact-path-main">..., St.Petersburg, Russia</p>
-          </section>
-          <section>
-            <p class="contact-name">Email:</p>
-            <p class="contact-path">example.com</p>
-          </section>
-        </div>
+        <p>If you are interested in collaboration with our group in this field, please do not hesitate contacting us:</p>
+
+        <h3>dmitrii.m.nikolaev@gmail.com</h3>
       </div>
     <!-- </div> -->
     

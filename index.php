@@ -12,7 +12,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nanobio Group</title>
+    <title></title>
     <!-- <link href="style.css" rel="stylesheet" type="text/css" charset="utf-8" /> -->
     <link rel="stylesheet/less" type="text/css" href="style.less" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
@@ -30,9 +30,12 @@
             <ul class="menu-list">
               <li><a class="submenu-link" href="research.php"><?php echo $research; ?></a>
                 <ul class="submenu">
-                  <li><a href="">Project_1</a></li>
-                  <li><a href="">Project_2</a></li>
-                  <li><a href="">Project_3</a></li>
+                  <li><a href="research-biosensors_and_tools_control_bioprocesses.php">Development of biosensors and tools that control biochemical processes</a></li>
+                  <li><a href="research-study_and_control_complex_chem_systems.php">Study and control of complex chemical systems</a></li>
+                  <li><a href="research-applying_quantum_chemistry_stud_chem_reactions.php">Applying quantum chemistry for studying chemical reactions</a></li>
+                  <li><a href="research-photoactivated_molecular_tools.php">Photoactivated molecular tools</a></li>
+                  <li><a href="research-enzymatic_systems.php">Enzymatic systems</a></li>
+                  <li><a href="research-testing_anticancer_drugs.php">Testing anticancer drugs</a></li>
                 </ul>
               </li>
               <li>
@@ -40,9 +43,6 @@
               </li>
               <li>
                 <a href="members.php"><?php echo $members; ?></a>
-              </li>
-              <li>
-                <a href="othes.php"><?php echo $othes; ?></a>
               </li>
               <li>
                 <a id="contacts" href="contacts.php"><?php echo $contacts; ?></a>
@@ -56,26 +56,43 @@
 	  </div>
     <div class="container" class="main-info-background">
       <div class="main-info">
-  	    <h1 class="new-opinion">Awesome<br>
-  	     text</h1>
-  	    <p>Else big text text text text
-        text text text text text</p>	
+  	    <h1 class="new-opinion">Laboratory of<br> Experimental and Theoretical NanoBiotechnologies and Chemical Biology</h1>	
   	  </div>
     </div>
-    <div class="circle-links-block">
+    <!-- <div class="circle-links-block">
       <a href="">Link_1</a>
       <a href="">Link_2</a>
-    </div>
+    </div> -->
   </header>
   <main>
   	<div class="container">
-  	  <h1 class="new-info">Something about our group</h1>
-        <p>This is text about cell:</p><br>
-        <p>The cell (from Latin cella, meaning "small room") is the basic structural, functional, and biological unit of all known living organisms. A cell is the smallest unit of life. Cells are often called the "building blocks of life". The study of cells is called cell biology.
-
-        Cells consist of cytoplasm enclosed within a membrane, which contains many biomolecules such as proteins and nucleic acids. Organisms can be classified as unicellular (consisting of a single cell; including bacteria) or multicellular (including plants and animals). While the number of cells in plants and animals varies from species to species, humans contain more than 10 trillion (1013) cells. Most plant and animal cells are visible only under a microscope, with dimensions between 1 and 100 micrometres.
-
-        Cells were discovered by Robert Hooke in 1665, who named them for their resemblance to cells inhabited by Christian monks in a monastery. Cell theory, first developed in 1839 by Matthias Jakob Schleiden and Theodor Schwann, states that all organisms are composed of one or more cells, that cells are the fundamental unit of structure and function in all living organisms, and that all cells come from pre-existing cells. Cells emerged on Earth at least 3.5 billion years ago.</p>
+  	  <h1 class="new-info">Latest News</h1>
+      <div class="one-news">
+        <p class="name-of-module">Conference abstract published in the Biophysical Journal</p>
+        <p>Struts, A.V., Ryazantsev, M.N., Xu, X., Molugu, T.R., Perera, S.M., Guruge, C., Faylough, S., Nascimento, C., Nesnas, N. and Brown, M.F., 2019. Retinal Flipping During Rhodopsin Activation Revealed by Solid State 2H NMR and QM/MM Simulations. Biophysical Journal, 116(3), p.204a.</p>
+        <p><b>Dmitrii Nikolaev</b> has visited the group of prof. Massimo Olivucci in Siena University, and started new collaborative projects in computational photochemistry.</p>
+        <div class="align-center">
+          <img class="img-info" src="image/news/Conf_published_in _Biophysical_Journal.jpg" alt="Conference abstract published in the Biophysical Journal">
+        </div>
+      </div>
+      <div class="one-news">
+        <p class="name-of-paragraph">New review chapter has been published.</p>
+        <p>Nikolaev, D.M., Panov, M.S., Shtyrov, A.A., Boitsov, V.M., Vyazmin, S.Y., Chakchir, O.B., Yakovlev, I.P. and Ryazantsev, M.N., 2019. Perspective Tools for Optogenetics and Photopharmacology: From Design to Implementation. In Progress in Photon Science (pp. 139-172). Springer, Cham.</p>
+      </div>
+      <div class="one-news">  
+        <p class="name-of-paragraph">Dmitrii Nikolaev has won the HPC grant for performing research on CINECA supercomputer complex.</p>
+        <a href="http://www.hpc-europa.eu/">www.hpc-europa.eu</a>
+      </div>
+      <div class="one-news">  
+        <p><b>Mikhail N. Ryazantsev</b> gave a talk at the «18th International Conference on Retinal Proteins» which was held on 24-29 September 2018 in Hockley Valley Resort, Ontario, Canada.</p> 
+      </div>
+      <div class="one-news">  
+        <p class="name-of-paragraph">New article</p>
+        <p>Nikolaev, D.M., Shtyrov, A.A., Panov, M.S., Jamal, A., Chakchir, O.B., Kochemirovsky, V.A., Olivucci, M. and Ryazantsev, M.N., 2018. A Comparative Study of Modern Homology Modeling Algorithms for Rhodopsin Structure Prediction. ACS omega, 3(7), pp.7555-7566.</p>
+      </div>  
+      <div class="one-news">  
+        <p><b>Mikhail N. Ryazantsev</b> gave a talk at the «The Third STEPS Symposium on Photon Science» which was held on 11-12 March 2018 in Moscow, Russia.</p>
+      </div>  
     </div>
   </main>
   <footer class="main-footer">

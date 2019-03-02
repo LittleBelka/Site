@@ -30,9 +30,12 @@
             <ul class="menu-list">
               <li><a class="submenu-link" href="research.php"><?php echo $research; ?></a>
                 <ul class="submenu">
-                  <li><a href="">Project_1</a></li>
-                  <li><a href="">Project_2</a></li>
-                  <li><a href="">Project_3</a></li>
+                  <li><a href="research-biosensors_and_tools_control_bioprocesses.php">Development of biosensors and tools that control biochemical processes</a></li>
+                  <li><a href="research-study_and_control_complex_chem_systems.php">Study and control of complex chemical systems</a></li>
+                  <li><a href="research-applying_quantum_chemistry_stud_chem_reactions.php">Applying quantum chemistry for studying chemical reactions</a></li>
+                  <li><a href="research-photoactivated_molecular_tools.php">Photoactivated molecular tools</a></li>
+                  <li><a href="research-enzymatic_systems.php">Enzymatic systems</a></li>
+                  <li><a href="research-testing_anticancer_drugs.php">Testing anticancer drugs</a></li>
                 </ul>
               </li>
               <li>
@@ -40,9 +43,6 @@
               </li>
               <li>
                 <a href="members.php"><?php echo $members; ?></a>
-              </li>
-              <li>
-                <a href="othes.php"><?php echo $othes; ?></a>
               </li>
               <li>
                 <a id="contacts" href="contacts.php"><?php echo $contacts; ?></a>
@@ -56,19 +56,34 @@
     </div>
     <div class="container" class="main-info-background">
       <div class="main-info">
-        <h1 class="new-opinion">Members</h1>
+        <h1 class="new-opinion"><?php echo $members; ?></h1>
       </div>
     </div>
   </header>
   <main>
     <div class="container">
-      <h1 class="new-info">Something</h1>
-        <p>This is text about cell:</p><br>
-        <p>The cell (from Latin cella, meaning "small room") is the basic structural, functional, and biological unit of all known living organisms. A cell is the smallest unit of life. Cells are often called the "building blocks of life". The study of cells is called cell biology.
-
-Cells consist of cytoplasm enclosed within a membrane, which contains many biomolecules such as proteins and nucleic acids. Organisms can be classified as unicellular (consisting of a single cell; including bacteria) or multicellular (including plants and animals). While the number of cells in plants and animals varies from species to species, humans contain more than 10 trillion (1013) cells. Most plant and animal cells are visible only under a microscope, with dimensions between 1 and 100 micrometres.
-
-Cells were discovered by Robert Hooke in 1665, who named them for their resemblance to cells inhabited by Christian monks in a monastery. Cell theory, first developed in 1839 by Matthias Jakob Schleiden and Theodor Schwann, states that all organisms are composed of one or more cells, that cells are the fundamental unit of structure and function in all living organisms, and that all cells come from pre-existing cells. Cells emerged on Earth at least 3.5 billion years ago.</p> 
+      <div class="one-news members">
+        <h4><a href="members-Mikhail_Ryazantsev.php">Mikhail N. Ryazantsev</a></h4>
+        <h4><a href="members-Dmitrii_Nikolaev.php">Dmitrii M. Nikolaev</a></h4>
+        <h4><a href="members-Andrey_Shtyrov.php">Andrey A. Shtyrov</a></h4>
+        <h3>St Petersburg Academic University, Department of Nanobiotechnologies, master student:</h3>
+        <h4><a href=""></a>Vasily Akulov</h4>
+        <h4><a href=""></a>Olesya Dogonasheva</h4>
+        <h4><a href=""></a>Daniil Strashkov</h4>
+        <h4><a href=""></a>Mikhalina Lebedeva</h4>
+        <h4><a href=""></a>Leonid Yu. Belyaev</h4>
+        <h3>St Petersburg State University, Institute of Chemistry, Department of Quantum Chemistry, bachelor student:</h3>
+        <h4><a href=""></a>Vladimir Mironov</h4>
+        <h4><a href=""></a>Alexey Prikhodko</h4>
+        <h4><a href=""></a>Galina Derevyankina</h4>
+        <h4><a href=""></a>Denis Kravtsov</h4>
+        <h4><a href=""></a>Philipp Vshivtsev</h4>
+        <h4><a href=""></a>Anvar Tlyamov</h4>
+        <h4><a href=""></a>Valeria Polevikova</h4>
+        <h4><a href=""></a>Nikita Blokhin</h4>
+        <h4><a href=""></a>Marina Nikonorova</h4>
+        <h4><a href=""></a>Demid Osipov</h4>
+      </div>
     </div>
     
   </main>

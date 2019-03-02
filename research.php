@@ -30,9 +30,12 @@
             <ul class="menu-list">
               <li><a class="submenu-link" href="research.php"><?php echo $research; ?></a>
                 <ul class="submenu">
-                  <li><a href="">Project_1</a></li>
-                  <li><a href="">Project_2</a></li>
-                  <li><a href="">Project_3</a></li>
+                  <li><a href="research-biosensors_and_tools_control_bioprocesses.php">Development of biosensors and tools that control biochemical processes</a></li>
+                  <li><a href="research-study_and_control_complex_chem_systems.php">Study and control of complex chemical systems</a></li>
+                  <li><a href="research-applying_quantum_chemistry_stud_chem_reactions.php">Applying quantum chemistry for studying chemical reactions</a></li>
+                  <li><a href="research-photoactivated_molecular_tools.php">Photoactivated molecular tools</a></li>
+                  <li><a href="research-enzymatic_systems.php">Enzymatic systems</a></li>
+                  <li><a href="research-testing_anticancer_drugs.php">Testing anticancer drugs</a></li>
                 </ul>
               </li>
               <li>
@@ -40,9 +43,6 @@
               </li>
               <li>
                 <a href="members.php"><?php echo $members; ?></a>
-              </li>
-              <li>
-                <a href="othes.php"><?php echo $othes; ?></a>
               </li>
               <li>
                 <a id="contacts" href="contacts.php"><?php echo $contacts; ?></a>
@@ -56,19 +56,50 @@
     </div>
     <div class="container" class="main-info-background">
       <div class="main-info">
-        <h1 class="new-opinion">Research</h1>
+        <h1 class="new-opinion"><?php echo $research; ?></h1>
       </div>
     </div>
   </header>
   <main>
     <div class="container">
-      <h1 class="new-info">Something</h1>
-        <p>This is text about cell:</p><br>
-        <p>The cell (from Latin cella, meaning "small room") is the basic structural, functional, and biological unit of all known living organisms. A cell is the smallest unit of life. Cells are often called the "building blocks of life". The study of cells is called cell biology.
-
-Cells consist of cytoplasm enclosed within a membrane, which contains many biomolecules such as proteins and nucleic acids. Organisms can be classified as unicellular (consisting of a single cell; including bacteria) or multicellular (including plants and animals). While the number of cells in plants and animals varies from species to species, humans contain more than 10 trillion (1013) cells. Most plant and animal cells are visible only under a microscope, with dimensions between 1 and 100 micrometres.
-
-Cells were discovered by Robert Hooke in 1665, who named them for their resemblance to cells inhabited by Christian monks in a monastery. Cell theory, first developed in 1839 by Matthias Jakob Schleiden and Theodor Schwann, states that all organisms are composed of one or more cells, that cells are the fundamental unit of structure and function in all living organisms, and that all cells come from pre-existing cells. Cells emerged on Earth at least 3.5 billion years ago.</p>
+      <ul class="list-research">
+        <li>
+          <a href="research-biosensors_and_tools_control_bioprocesses.php">Development of biosensors and tools that control biochemical processes</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/biosensors_and_tools_control_bioprocesses_1.jpg" alt="Development of biosensors and tools that control biochemical processes">
+          </div>
+        </li>
+        <li>
+          <a href="research-study_and_control_complex_chem_systems.php">Study and control of complex chemical systems</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/research-study_and_control_complex_chem_systems_ReaNet_1.png" alt="Study and control of complex chemical systems">
+          </div>
+        </li>
+        <li>
+          <a href="research-applying_quantum_chemistry_stud_chem_reactions.php">Applying quantum chemistry for studying chemical reactions</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/applying_quantum_chemistry_stud_chem_reactions_2.png" alt="Applying quantum chemistry for studying chemical reactions">
+          </div>
+        </li>
+        <li>
+          <a href="research-photoactivated_molecular_tools.php">Photoactivated molecular tools</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/photoactivated_molecular_tools_2.png" alt="Photoactivated molecular tools">
+          </div>
+        </li>
+        <li>
+          <a href="research-enzymatic_systems.php">Enzymatic systems</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/enzymatic_systems.jpg" alt="Enzymatic systems">
+          </div>
+        </li>
+        <li>
+          <a href="research-testing_anticancer_drugs.php">Testing anticancer drugs</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/testing_anticancer_drugs.jpg" alt="Testing anticancer drugs">
+          </div>
+        </li>
+      </ul>
     </div>
     
   </main>
