@@ -64,14 +64,14 @@
     <div class="container">
       <div class="one-member">
         <h4>Professional Interests:</h4>
-        <ul class="">
+        <ul class="highest-list">
           <li>protein-based biosensors;</li>
           <li>development of computational biophysics approaches;</li>
           <li>applying machine-learning for molecular systems;</li>
           <li>computational modeling of proteins and protein-based systems.</li>
         </ul>
         <h4>Research projects:</h4>  
-        <ul class="">
+        <ul class="highest-list">
           <li>Development of protein-based biosensors of cell membrane potential;</li>
           <li>Computational modeling of rhodopsin proteins:
             <ul class="inside-list">
@@ -83,13 +83,13 @@
           </li>
         </ul>
         <h4>Current positions:</h4>
-        <ul class="">
+        <ul class="highest-list">
           <li>PhD student, St Petersburg Academic University;</li>
           <li>Lab assistant in the Laboratory of Nanobiotechnologies, St Petersburg Academic University;</li>
           <li>Lecturer, course: «Introduction in nanobiotechnologies», St Petersburg Academic University.</li>
         </ul>
         <h4>Interships:</h4>
-        <ul class="">
+        <ul class="highest-list">
           <li>January 2019: Siena University (Italy), Laboratory for Computational Photochemistry and Photobiology, Massimo Olivicci group.</li>
           <li>December 2017: Siena University (Italy), Laboratory for Computational Photochemistry and Photobiology, Massimo Olivucci group.</li>
           <li>Summer 2017: Bowling Green State University, OH, USA, Photochemical Center, Massimo Olivucci group.</li>

@@ -64,19 +64,19 @@
     <div class="container">
       <div class="one-member">
         <h4>Professional Interests:</h4>
-        <ul class="">
+        <ul class="highest-list">
           <li>Development of protein-based nanobiosensors and methods for visualization of cellular processes;</li>
           <li>Computational  modeling of biological systems and chemical reactions;</li>
           <li>Molecular design of artificial enzymes based on biological molecules;</li>
           <li>Studying photophysics and photochemistry of biological and organic molecules with time-resolved spectroscopy.</li>
         </ul>
         <h4>Interships:</h4>
-        <ul class="">
+        <ul class="highest-list">
           <li>Scholarship of Japan Society for Promoting Science (JSPS, 2013);</li>
           <li>Scholarship Exxon-Mobil (Princeton University, 2014).</li>
         </ul>
         <h4>Previous studies:</h4>  
-        <ul class="">
+        <ul class="highest-list">
           <li>2010-2014: Associate professor, Emory University (Atlanta, USA);</li>
           <li>2005-2010: PhD student, Center for Photochemical Sciences, Bowling Green State University (Ohio, USA);</li>
           <li>Saint-Petersburg State University, Physics department (Master degree, 2003);</li>

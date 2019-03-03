@@ -64,17 +64,17 @@
     <div class="container">
       <div class="one-member">
         <h4>Professional Interests:</h4>
-        <ul class="">
+        <ul class="highest-list">
           <li>Applying quantum chemistry for the investigation of molecular systems and rational design of photoactivated molecular switches.</li>
           <li>Running non-adiabatic QM/MM trajectories for studying photoactivated isomerization of molecular switches and chromophores.</li>
         </ul>
         <h4>Research projects:</h4>  
-        <ul class="">
+        <ul class="highest-list">
           <li>Investigation of kinetics and optical properties of azobenzene-based and azonaphthalene-based photoactivated molecular switches.</li>
           <li>Investigation the kinetics of photoactivated chemical decomposition reactions.</li>
         </ul>
         <h4>Previous studies:</h4>
-        <ul class="">
+        <ul class="highest-list">
           <li>St Petersburg Academic University, Department of Nanobiotechnologies, master student.</li>
           <li>St Petersburg State University, Institute of Chemistry, Department of Quantum Chemistry, bachelor student.</li>
         </ul>

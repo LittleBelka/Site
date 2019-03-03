@@ -68,7 +68,7 @@
   	<div class="container">
   	  <h1 class="new-info">Latest News</h1>
       <div class="one-news">
-        <p class="name-of-module">Conference abstract published in the Biophysical Journal</p>
+        <p class="name-of-paragraph">Conference abstract published in the Biophysical Journal</p>
         <p>Struts, A.V., Ryazantsev, M.N., Xu, X., Molugu, T.R., Perera, S.M., Guruge, C., Faylough, S., Nascimento, C., Nesnas, N. and Brown, M.F., 2019. Retinal Flipping During Rhodopsin Activation Revealed by Solid State 2H NMR and QM/MM Simulations. Biophysical Journal, 116(3), p.204a.</p>
         <p><b>Dmitrii Nikolaev</b> has visited the group of prof. Massimo Olivucci in Siena University, and started new collaborative projects in computational photochemistry.</p>
         <div class="align-center">
