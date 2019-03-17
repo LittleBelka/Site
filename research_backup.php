@@ -56,18 +56,51 @@
     </div>
     <div class="container" class="main-info-background">
       <div class="main-info">
-        <h1 class="new-opinion"><?php echo $contacts; ?></h1>
+        <h1 class="new-opinion"><?php echo $research; ?></h1>
       </div>
     </div>
   </header>
   <main>
-    <!-- <div class="contacts"> -->
-      <div class="container contacts">
-        <p><?php echo $contact_us; ?></p>
-
-        <h3>dmitrii.m.nikolaev@gmail.com</h3>
-      </div>
-    <!-- </div> -->
+    <div class="container">
+      <ul class="list-research">
+        <li>
+          <a href="research-biosensors_and_tools_control_bioprocesses.php">Development of biosensors and tools that control biochemical processes</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/biosensors_and_tools_control_bioprocesses_1.jpg" alt="Development of biosensors and tools that control biochemical processes">
+          </div>
+        </li>
+        <li>
+          <a href="research-study_and_control_complex_chem_systems.php">Study and control of complex chemical systems</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/research-study_and_control_complex_chem_systems_ReaNet_1.png" alt="Study and control of complex chemical systems">
+          </div>
+        </li>
+        <li>
+          <a href="research-applying_quantum_chemistry_stud_chem_reactions.php">Applying quantum chemistry for studying chemical reactions</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/applying_quantum_chemistry_stud_chem_reactions_2.png" alt="Applying quantum chemistry for studying chemical reactions">
+          </div>
+        </li>
+        <li>
+          <a href="research-photoactivated_molecular_tools.php">Photoactivated molecular tools</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/photoactivated_molecular_tools_2.png" alt="Photoactivated molecular tools">
+          </div>
+        </li>
+        <li>
+          <a href="research-enzymatic_systems.php">Enzymatic systems</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/enzymatic_systems.jpg" alt="Enzymatic systems">
+          </div>
+        </li>
+        <li>
+          <a href="research-testing_anticancer_drugs.php">Testing anticancer drugs</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/testing_anticancer_drugs.jpg" alt="Testing anticancer drugs">
+          </div>
+        </li>
+      </ul>
+    </div>
     
   </main>
   <footer class="main-footer">

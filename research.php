@@ -63,16 +63,11 @@
   <main>
     <div class="container">
       <ul class="list-research">
+        <div class="top-row-research">
         <li>
           <a href="research-biosensors_and_tools_control_bioprocesses.php">Development of biosensors and tools that control biochemical processes</a>
           <div class="align-center">
-            <img class="img-small" src="image/research/biosensors_and_tools_control_bioprocesses_1.jpg" alt="Development of biosensors and tools that control biochemical processes">
-          </div>
-        </li>
-        <li>
-          <a href="research-study_and_control_complex_chem_systems.php">Study and control of complex chemical systems</a>
-          <div class="align-center">
-            <img class="img-small" src="image/research/research-study_and_control_complex_chem_systems_ReaNet_1.png" alt="Study and control of complex chemical systems">
+            <img class="img-small" src="image/research/applying_quantum_chemistry_stud_chem_reactions_2.png" alt="Development of biosensors and tools that control biochemical processes">
           </div>
         </li>
         <li>
@@ -81,24 +76,42 @@
             <img class="img-small" src="image/research/applying_quantum_chemistry_stud_chem_reactions_2.png" alt="Applying quantum chemistry for studying chemical reactions">
           </div>
         </li>
+        </div>
+        <div class="arrow-row-research">
+        <li>
+          <div class="align-center">
+            <img class="img-small" src="image/research/arrow-to-the-left.png" alt="arrow-to-the-left">
+          </div>
+        </li>
+        <li>
+          <div class="align-center">
+            <img class="img-small" src="image/research/arrow-to-the-right.png" alt="arrow-to-the-right">
+          </div>
+        </li>
+        </div>
+        <div class="main-row-research flex-main-research">
+        <li>
+          <a href="research-study_and_control_complex_chem_systems.php">Study and control of complex chemical systems</a>
+          <div class="align-center">
+            <img class="img-small" src="image/research/ReaNet.jpg" alt="Study and control of complex chemical systems">
+          </div>
+        </li>
+        </div>
+        <div class="bottom-row-research">
+        <div class="arrow-down">
+        <li>
+          <div class="align-center">
+            <img src="image/research/arrow-down.png" alt="arrow-down">
+          </div>
+        </li>
+        </div>
         <li>
           <a href="research-photoactivated_molecular_tools.php">Photoactivated molecular tools</a>
           <div class="align-center">
             <img class="img-small" src="image/research/photoactivated_molecular_tools_2.png" alt="Photoactivated molecular tools">
           </div>
         </li>
-        <li>
-          <a href="research-enzymatic_systems.php">Enzymatic systems</a>
-          <div class="align-center">
-            <img class="img-small" src="image/research/enzymatic_systems.jpg" alt="Enzymatic systems">
-          </div>
-        </li>
-        <li>
-          <a href="research-testing_anticancer_drugs.php">Testing anticancer drugs</a>
-          <div class="align-center">
-            <img class="img-small" src="image/research/testing_anticancer_drugs.jpg" alt="Testing anticancer drugs">
-          </div>
-        </li>
+        </div>
       </ul>
     </div>
     
