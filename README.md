@@ -1,3 +1,5 @@
 # Site
-It's a template of static site with adaptive layout
-![selection_060](https://user-images.githubusercontent.com/15203482/52908176-63520380-3281-11e9-831b-19634754a2d3.jpg)
+It's a initial design of static site with adaptive layout
+![image](https://user-images.githubusercontent.com/15203482/54956992-8a77b100-4f62-11e9-880f-a4a3caf54c8e.png)
+
+Current version of site can be found by link: [letnbcb.com](http://letnbcb.com)
